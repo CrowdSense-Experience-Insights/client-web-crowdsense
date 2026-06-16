@@ -61,11 +61,13 @@
   --brightnessDisabled: 0.75;
 }
 
+/* CrowdSense brand (P3 reskin — first-party fork). Pulse live-ops palette:
+   GitHub-dark #0D1117 + Pulse Blue #58A6FF (see pulse-dashboard tokens.css). */
 [data-theme="dark"] {
-  --backgroundPrimary: #0f172a;
-  --textPrimary: #ebebeb;
-  --textSecondary: #bdbdbd;
-  --link: #8ec9ff;
+  --backgroundPrimary: #0D1117;
+  --textPrimary: #E6EDF3;
+  --textSecondary: #8B949E;
+  --link: #58A6FF;
 
   --brightnessHover: 1.1;
   --brightnessPress: 0.9;
