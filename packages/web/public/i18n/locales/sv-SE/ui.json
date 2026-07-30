@@ -12,8 +12,8 @@
     "nodes": "Noder"
   },
   "app": {
-    "title": "Meshtastic",
-    "logo": "Meshtastic logotyp"
+    "title": "CrowdSense",
+    "logo": "CrowdSense logotyp"
   },
   "sidebar": {
     "collapseToggle": {
@@ -224,7 +224,6 @@
     "fallbackError": "{{error}}"
   },
   "footer": {
-    "text": "Drivs av <0>▲ Vercel</0> | Meshtastic® är ett registrerat varumärke som tillhör Meshtastic LLC. | <1>Juridisk information</1>",
     "commitSha": "Commit SHA: {{sha}}"
   }
 }

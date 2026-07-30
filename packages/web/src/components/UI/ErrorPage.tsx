@@ -54,7 +54,7 @@ export function ErrorPage({ error }: { error: Error }) {
         </div>
 
         <div className="hidden md:block md:max-w-64 lg:max-w-80 w-full aspect-suqare">
-          <img src="/chirpy.svg" alt="Chirpy the Meshtastic error" className="max-w-full h-auto" />
+          <img src="/crowdsense-mark.svg" alt="" className="max-w-full h-auto" />
         </div>
       </section>
       <details className="mt-8 px-4 md:px-8 text-lg md:text-xl space-y-2 text-md whitespace-pre-wrap break-all">

@@ -12,8 +12,8 @@
     "nodes": "Noeuds"
   },
   "app": {
-    "title": "Meshtastic",
-    "logo": "Logo Meshtastic"
+    "title": "CrowdSense",
+    "logo": "Logo CrowdSense"
   },
   "sidebar": {
     "collapseToggle": {
@@ -224,7 +224,6 @@
     "fallbackError": "{{error}}"
   },
   "footer": {
-    "text": "Propulsé par <0>▲ Vercel</0> | Meshtastic® est une marque déposée de Meshtastic LLC. | <1>Informations légales</1>",
     "commitSha": "SHA : {{sha}}"
   }
 }

@@ -34,8 +34,8 @@
     "submit": "Lähetä"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Meshtastic Web Client"
+    "title": "CrowdSense",
+    "fullTitle": "CrowdSense Client"
   },
   "loading": "Ladataan...",
   "unit": {

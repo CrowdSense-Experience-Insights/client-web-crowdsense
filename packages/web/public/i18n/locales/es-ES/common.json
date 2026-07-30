@@ -34,8 +34,8 @@
     "submit": "Enviar"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Cliente Web Meshtastic"
+    "title": "CrowdSense",
+    "fullTitle": "CrowdSense Client"
   },
   "loading": "Cargando...",
   "unit": {

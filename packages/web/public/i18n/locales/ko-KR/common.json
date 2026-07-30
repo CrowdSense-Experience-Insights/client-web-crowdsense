@@ -34,8 +34,8 @@
     "submit": "제출"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Meshtastic 웹 클라이언트"
+    "title": "CrowdSense",
+    "fullTitle": "CrowdSense Client"
   },
   "loading": "로딩 중...",
   "unit": {

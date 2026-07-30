@@ -12,8 +12,8 @@
     "nodes": "노드"
   },
   "app": {
-    "title": "Meshtastic",
-    "logo": "Meshtastic 로고"
+    "title": "CrowdSense",
+    "logo": "CrowdSense 로고"
   },
   "sidebar": {
     "collapseToggle": {
@@ -224,7 +224,6 @@
     "fallbackError": "{{error}}"
   },
   "footer": {
-    "text": "Powered by <0>▲ Vercel</0> | Meshtastic®는 Meshtastic LLC의 등록 상표입니다. | <1>법적 정보</1>",
     "commitSha": "Commit SHA: {{sha}}"
   }
 }

@@ -34,8 +34,8 @@
     "submit": "Spara"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Meshtastic webbklient"
+    "title": "CrowdSense",
+    "fullTitle": "CrowdSense Client"
   },
   "loading": "Laddar...",
   "unit": {

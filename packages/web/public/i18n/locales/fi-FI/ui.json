@@ -12,8 +12,8 @@
     "nodes": "Laitteet"
   },
   "app": {
-    "title": "Meshtastic",
-    "logo": "Meshtastic Logo"
+    "title": "CrowdSense",
+    "logo": "CrowdSense Logo"
   },
   "sidebar": {
     "collapseToggle": {
@@ -224,7 +224,6 @@
     "fallbackError": "{{error}}"
   },
   "footer": {
-    "text": "Powered by <0>▲ Vercel</0> | Meshtastic® on Meshtastic LLC:n rekisteröity tavaramerkki. | <1>Oikeudelliset tiedot</1>",
     "commitSha": "Ohjelmistokehitysversion SHA-tunniste: {{sha}}"
   }
 }

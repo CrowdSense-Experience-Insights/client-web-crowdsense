@@ -1,16 +1,16 @@
 {
-	"name": "Meshtastic",
-	"short_name": "Web Client",
+	"name": "CrowdSense Client",
+	"short_name": "CrowdSense",
 	"start_url": ".",
-	"description": "Meshtastic Web App",
+	"description": "CrowdSense Client",
 	"icons": [
 		{
-			"src": "/logo.svg",
+			"src": "/crowdsense-mark.svg",
 			"sizes": "any",
 			"type": "image/svg+xml"
 		}
 	],
-	"theme_color": "#67ea94",
-	"background_color": "#67ea94",
+	"theme_color": "#0D1117",
+	"background_color": "#0D1117",
 	"display": "standalone"
 }

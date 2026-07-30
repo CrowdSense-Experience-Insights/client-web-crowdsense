@@ -144,7 +144,11 @@ export const Sidebar = ({ children }: SidebarProps) => {
           isCollapsed && "justify-center px-0",
         )}
       >
-        <img src="/logo.svg" alt={t("app.logo")} className="size-10 flex-shrink-0 rounded-xl" />
+        <img
+          src="/crowdsense-mark.svg"
+          alt={t("app.logo")}
+          className="size-10 flex-shrink-0 rounded-xl"
+        />
         <h2
           className={cn(
             "text-xl font-semibold text-gray-800 dark:text-gray-100 whitespace-nowrap",

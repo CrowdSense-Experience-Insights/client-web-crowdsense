@@ -34,8 +34,8 @@
     "submit": "Gönder"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Meshtastic Web İstemci"
+    "title": "CrowdSense",
+    "fullTitle": "CrowdSense Client"
   },
   "loading": "Yükleniyor...",
   "unit": {
