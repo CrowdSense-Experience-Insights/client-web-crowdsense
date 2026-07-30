@@ -8,7 +8,6 @@ __screenshots__*
 *.diff
 npm/
 .idea
-**/LICENSE
 .DS_Store
 
 packages/protobufs/packages/ts/dist
