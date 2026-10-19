@@ -20,10 +20,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
+      # pnpm version comes from "packageManager" in package.json. Passing
+      # "version" here as well makes pnpm/action-setup@v6 fail with
+      # "Multiple versions of pnpm specified".
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
-        with:
-          version: latest
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -103,8 +104,11 @@ jobs:
             org.opencontainers.image.revision=${{ github.sha }}
             org.opencontainers.image.created=${{ steps.meta.outputs.created }}
 
+      # Only main publishes. A manual run on any other branch builds and
+      # tests everything but leaves ghcr.io untouched.
       - name: Push To GHCR
         id: push-to-registry
+        if: github.ref == 'refs/heads/main'
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ steps.build-container.outputs.image }}
@@ -115,6 +119,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Print image URLs
+        if: github.ref == 'refs/heads/main'
         run: |
           echo "Moving tag:   ${{ env.REGISTRY_IMAGE }}:${{ steps.meta.outputs.moving_tag }}"
           echo "Immutable tag: ${{ env.REGISTRY_IMAGE }}:${{ steps.meta.outputs.immutable_tag }}"
